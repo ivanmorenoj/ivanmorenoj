@@ -23,6 +23,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [How to bypass a firewall using a VPS on AWS](https://medium.com/@ivan1697/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
+- [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://medium.com/@ivan1697/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-2d219094c9c0?source=rss-659e69c36833------2)
+- [How to install and configure you own vpn server in GCP with Wireguard](https://medium.com/@ivan1697/how-to-install-and-configure-you-own-vpn-server-in-gcp-with-wireguard-9492268db0bf?source=rss-659e69c36833------2)
+- [How to install Docker CE in CentOS 8](https://medium.com/@ivan1697/how-to-install-docker-ce-in-centos-8-fbb2bf5e51e6?source=rss-659e69c36833------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
