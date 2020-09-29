@@ -19,7 +19,8 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[letterpaper]{style} % a4paper for A4
+\documentclass[letterpaper]{style_es} % a4paper for A4
+\usepackage[spanish,mexico]{babel}
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -29,10 +30,10 @@
 
 \profilepic{profile_photo.jpg} % Profile picture
 
-\cvname{Ivan Moreno} % Your name
-\cvjobtitle{Communications and electronics Engineer} % Job title/career
-\cvdate{16 July 1997} % Date of birth
-\cvaddress{Mexico City} % Short address/location, use \newline if more than 1 line is required
+\cvname{Iv\'an Moreno} % Your name
+\cvjobtitle{Ingeniero en Comunicaciones y Electr\'onica} % Job title/career
+\cvdate{16 de Julio de 1997} % Date of birth
+\cvaddress{Ciudad de M\'exico} % Short address/location, use \newline if more than 1 line is required
 \cvnumberphone{+52 5560712339} % Phone number
 \cvsite{github.com/ivan28823} % Personal website
 \cvmail{ivan1697@gmail.com} % Email address
@@ -45,13 +46,13 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{I'm communication and electronics engineer with experience in IoT devices, networking and knowledge of DevOps} % To have no About Me section, just remove all the text and leave \aboutme{}
+\aboutme{Soy ingeniero de comunicaciones y electrónica con experiencia en dispositivos IoT, redes y conocimiento de DevOps.}
 
 %----------------------------------------------------------------------------------------
 %	 LANGUAGES
 %----------------------------------------------------------------------------------------
 
-\languages{Spanish (mother tongue)\\ English (80\%)}
+\languages{Español (Lengua materna)\\ Ingl\'es (80\%)}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
@@ -72,20 +73,20 @@
 %	 INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+\section{Intereses}
 
-Tech hobbyist, i like to make electronic projects with arduino and raspberry pi. In my free time i ride in motorcycle.
+Aficionado a la tecnología, me gusta hacer proyectos electrónicos con arduino y raspberry pi. En mi tiempo libre viajo en moto.
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{Educaci\'on}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{Since 2020}{M.Sc. Student}{SEPI ESIME - IPN, Mexico City}{Master of Science in Telecommunications Engineering}
-	\twentyitem{2015-2019}{B.Sc.}{ESIME - IPN, Mexico City}{Communications and electronics Engineer}
-	\twentyitem{2012-2015}{High school}{CECyT 3 - IPN, Mexico City}{Electrical Control Systems Technician}
+	\twentyitem{Desde 2020}{Estudiante de Maestr\'ia}{SEPI ESIME - IPN, Ciudad de M\'exico}{Estudiante de Maestr\'ia en Ciencias en Ingenier\'ia de Telecomunicaciones.}
+	\twentyitem{2015-2019}{Ingeniero}{ESIME - IPN, Ciudad de M\'exico}{Ingeniero en Comunicaciones y Electr\'onica con especialidad en Comunicaciones.}
+	\twentyitem{2012-2015}{T\'ecnico}{CECyT No.3 - IPN, Ciudad de M\'exico}{T\'ecnico en Sistemas de Control El\'ectrico}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -93,11 +94,11 @@ Tech hobbyist, i like to make electronic projects with arduino and raspberry pi.
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Experiencia}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{Since 2020}{LoRaWAN system administrator}{SEPI ESIME - IPN, Mexico City}{I work maintaining a kubernetes cluster who manages a LoRAWAN network as part of my master degree project}
-	\twentyitem{2018-2019}{Specialist in embedded systems}{IOPPA (IPN), Mexico City}{I worked in research and development in air quality measurement systems and administered some linux servers}
+	\twentyitem{Desde 2020}{Arministrador de una red LoRaWAN}{SEPI ESIME - IPN, Ciudad de M\'exico}{Trabajo manteniendo un clúster de kubernetes que gestiona una red LoRAWAN como parte de mi proyecto de maestr\'ia.}
+	\twentyitem{2018-2019}{Especialista en sistemas embebidos}{IOPPA (IPN), Ciudad de M\'exico}{Trabaj\'e como becario en el desarrollo de un sistema de medición de calidad del aire.}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -105,12 +106,12 @@ Tech hobbyist, i like to make electronic projects with arduino and raspberry pi.
 %	 PROJECTS
 %----------------------------------------------------------------------------------------
 
-\section{Projects}
+\section{Proyectos}
 
 \begin{twenty} % Environment for a list with descriptions
-  \twentyitem{2020}{\href{https://github.com/ivan28823/chirpstack-thingsboard}{An IoT LoRaWAN Network}}{}{Implementation of an IoT LoRaWAN Network using Docker, Kubernetes, ChirpStack and ThingsBoard}
-  \twentyitem{2019}{\href{https://github.com/ivan28823/emca}{Air Quality Monitoring Station}}{}{Implementation of an air quality monitoring system with low-cost sensors using a LoRaWAN network}
-  \twentyitem{2018}{\href{https://github.com/ivan28823/fft_esp32_lcd}{Spectrum Analyzer}}{}{Shows on a screen the spectrum of the sound captured by a microphone, divided by bands}
+  \twentyitem{2020}{\href{https://github.com/ivan28823/chirpstack-thingsboard}{Red IoT implementada con LoRaWAN}}{}{Implementaci\'on de una red IoT LoRaWAN usando Docker, Kubernetes, ChirpStack y ThingsBoard}
+  \twentyitem{2019}{\href{https://github.com/ivan28823/emca}{Estaci\'on de Monitoreo de Calidad del Aire}}{}{Implementaci\'on de un sistema de monitoreo de la calidad del aire con sensores de bajo costo usando una red LoRaWAN.}
+  \twentyitem{2018}{\href{https://github.com/ivan28823/fft_esp32_lcd}{Analizador de espectro}}{}{Prototipo que muestra en una pantalla el espectro del sonido dividido por bandas capturado por un micr\'ofono.}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -118,7 +119,7 @@ Tech hobbyist, i like to make electronic projects with arduino and raspberry pi.
 %	 COURSES
 %----------------------------------------------------------------------------------------
 
-\section{Online courses}
+\section{Cursos}
 
 \begin{twenty} % Environment for a list with descriptions
   \twentyitem{2020}{\href{http://ude.my/UC-1867f1ce-607a-4e3d-b7bc-56645b0a6e73}{Docker Mastery: with Kubernetes + Swarm}}{Udemy}{}
