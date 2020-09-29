@@ -26,27 +26,6 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ivan28823" alt="ivan28823" /> </p>
-
-- 🔭 I’m currently working on [Low-Cost Air Quality Monitoring Station](https://github.com/ivan28823/emca)
-
-- 🌱 I’m currently learning **Jenkis, Kubernetes, Docker, Ansible, terraform, AWS, GCP**
-
-- 👯 I’m collaborate on [Arduino LoRaWAN library](https://github.com/BeelanMX/Beelan-LoRaWAN)
-
-- 👨‍💻 All of my projects are available at [https://github.com/ivan28823](https://github.com/ivan28823)
-
-- 📝 I regulary write articles on [https://medium.com/@ivan1697](https://medium.com/@ivan1697)
-
-- 💬 Ask me about **DevOps, sysadmin and embedded development**
-
-- 📫 How to reach me **ivan1697@gmail.com**
-
-- ⚡ Fact about me **I like motorcycles**
-
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
 - [How to bypass a firewall using a VPS on AWS](https://medium.com/@ivan1697/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
 - [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://medium.com/@ivan1697/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-2d219094c9c0?source=rss-659e69c36833------2)
 - [How to install and configure you own vpn server in GCP with Wireguard](https://medium.com/@ivan1697/how-to-install-and-configure-you-own-vpn-server-in-gcp-with-wireguard-9492268db0bf?source=rss-659e69c36833------2)
