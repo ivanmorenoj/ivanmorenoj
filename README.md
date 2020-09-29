@@ -6,7 +6,8 @@
 <h4 align="center">Curriculum Vitae <a href="https://github.com/ivan28823/ivan28823/releases/latest/download/Curriculum_Vitae_Ivan_Moreno_EN.pdf">English Version</a></h4>
 <h4 align="center">Curriculum Vitae <a href="https://github.com/ivan28823/ivan28823/releases/latest/download/Curriculum_Vitae_Ivan_Moreno_ES.pdf">Spanish Version</a></h4>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ivan28823" alt="ivan28823" /> </p>
+![Views](https://komarev.com/ghpvc/?username=ivan28823&color=brightgreen&style=plastic)
+![CV-downloads](https://img.shields.io/github/downloads/ivan28823/ivan28823/total?style=plastic)
 
 - 🔭 I’m currently working on [Low-Cost Air Quality Monitoring Station](https://github.com/ivan28823/emca)
 
