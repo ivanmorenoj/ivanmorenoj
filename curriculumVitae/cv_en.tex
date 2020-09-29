@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{res/style} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{res/profile_photo.jpg} % Profile picture
+
+\cvname{Ivan Moreno} % Your name
+\cvjobtitle{Communications and electronics Engineer} % Job title/career
+\cvdate{16 July 1997} % Date of birth
+\cvaddress{Mexico City} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+52 5560712339} % Phone number
+\cvsite{github.com/ivan28823} % Personal website
+\cvmail{ivan1697@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I'm communication and electronics engineer with experience in IoT devices, networking and knowledge of DevOps} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\languages{Spanish (mother tongue)\\ English (80\%)}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{IoT/5.5},{Python/4},{Java/4.5},{C,C++/5.2},{Bash/5},{Git/5},{Networking/5},{Kubernetes/4},{Docker/5},{Linux OS/5.5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+% \skillstext{{spanish/6},{english/5}}
+
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+Tech hobbyist, i like to make electronic projects with arduino and raspberry pi. In my free time i ride in motorcycle.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since 2020}{M.Sc. Student}{SEPI ESIME - IPN, Mexico City}{Master of Science in Telecommunications Engineering}
+	\twentyitem{2015-2019}{B.Sc.}{ESIME - IPN, Mexico City}{Communications and electronics Engineer}
+	\twentyitem{2012-2015}{High school}{CECyT 3 - IPN, Mexico City}{Electrical Control Systems Technician}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since 2020}{LoRaWAN system administrator}{SEPI ESIME - IPN, Mexico City}{I work maintaining a kubernetes cluster who manages a LoRAWAN network as part of my master degree project}
+	\twentyitem{2018-2019}{Specialist in embedded systems}{IOPPA (IPN), Mexico City}{I worked in research and development in air quality measurement systems and administered some linux servers}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2020}{\href{https://github.com/ivan28823/chirpstack-thingsboard}{An IoT LoRaWAN Network}}{}{Implementation of an IoT LoRaWAN Network using Docker, Kubernetes, ChirpStack and ThingsBoard}
+  \twentyitem{2019}{\href{https://github.com/ivan28823/emca}{Air Quality Monitoring Station}}{}{Implementation of an air quality monitoring system with low-cost sensors using a LoRaWAN network}
+  \twentyitem{2018}{\href{https://github.com/ivan28823/fft_esp32_lcd}{Spectrum Analyzer}}{}{Shows on a screen the spectrum of the sound captured by a microphone, divided by bands}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 COURSES
+%----------------------------------------------------------------------------------------
+
+\section{Online courses}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2020}{\href{http://ude.my/UC-1867f1ce-607a-4e3d-b7bc-56645b0a6e73}{Docker Mastery: with Kubernetes + Swarm}}{Udemy}{}
+  \twentyitem{2020}{\href{http://ude.my/UC-46ac09bd-7e50-4521-ab01-9e193083d462}{Red Hat Certified Systems Administrator}}{Udemy}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\end{document} 
