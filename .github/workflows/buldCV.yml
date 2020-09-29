@@ -1,0 +1,48 @@
+name: buildCV
+on:
+  push:
+    branch:
+      - 'master'
+    tags:
+      - 'v*'
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v1
+      - name: Install TexLive packages
+        run: sudo apt-get install -y make texlive-fonts-extra texlive-latex-extra texlive-lang-spanish 
+      - name: Build
+        run: cd curriculumVitae && make && cd ../
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Curriculum Vitae English Version
+        id: upload-pdf-file
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./curriculumVitae/cv_en.pdf
+          asset_name: Curriculum_Vitae_Ivan_Moreno_EN.pdf
+          asset_content_type: application/pdf
+      - name: Upload Curriculum Vitae Spanish Version
+        id: upload-pdf-file-compress
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./curriculumVitae/cv_es.pdf
+          asset_name: Curriculum_Vitae_Ivan_Moreno_ES.pdf
+          asset_content_type: application/pdf
