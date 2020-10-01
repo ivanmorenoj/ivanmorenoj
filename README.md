@@ -3,21 +3,22 @@
 <h3 align="center">Master's student in telecommunications engineering</h3>
 <h3 align="center">DevOps in progress</h3>
 
-<h4 align="center">Curriculum Vitae <a href="https://github.com/ivan28823/ivan28823/releases/latest/download/Curriculum_Vitae_Ivan_Moreno_EN.pdf">English Version</a></h4>
-<h4 align="center">Curriculum Vitae <a href="https://github.com/ivan28823/ivan28823/releases/latest/download/Curriculum_Vitae_Ivan_Moreno_ES.pdf">Spanish Version</a></h4>
+<h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3iguQjV">English</a> or <a href="https://bit.ly/3nayBeK">Spanish</a>]</h3>
 
+![Latest-release](https://img.shields.io/github/v/release/ivan28823/ivan28823?style=plastic)
+![Latest-commit](https://img.shields.io/github/last-commit/ivan28823/ivan28823?style=plastic)
 ![Views](https://komarev.com/ghpvc/?username=ivan28823&color=brightgreen&style=plastic)
 ![CV-downloads](https://img.shields.io/github/downloads/ivan28823/ivan28823/total?style=plastic)
 
 - 🔭 I’m currently working on [Low-Cost Air Quality Monitoring Station](https://github.com/ivan28823/emca)
 
-- 🌱 I’m currently learning **Jenkis, Kubernetes, Docker, Ansible, terraform, AWS, GCP**
+- 🌱 I’m currently learning **Kubernetes, Jenkis, Ansible, Terraform, AWS, GCP**
 
 - 👯 I’m collaborate on [Arduino LoRaWAN library](https://github.com/BeelanMX/Beelan-LoRaWAN)
 
-- 👨‍💻 All of my projects are available at [https://github.com/ivan28823](https://github.com/ivan28823)
+- 👨‍💻 All of my projects are available at [GitHub Profile](https://github.com/ivan28823?tab=repositories)
 
-- 📝 I regulary write articles on [https://medium.com/@ivan1697](https://medium.com/@ivan1697)
+- 📝 I regulary write articles on [Medium](https://medium.com/@ivan1697)
 
 - 💬 Ask me about **DevOps, sysadmin and embedded development**
 
