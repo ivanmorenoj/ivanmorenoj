@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on [Low-Cost Air Quality Monitoring Station](https://github.com/ivan28823/emca)
 
-- 🌱 I’m currently learning **Kubernetes, Jenkis, Ansible, Terraform, AWS, GCP**
+- 🌱 I’m currently learning **Jenkis, Ansible, Terraform, AWS and GCP**
 
 - 👯 I’m collaborate on [Arduino LoRaWAN library](https://github.com/BeelanMX/Beelan-LoRaWAN)
 
