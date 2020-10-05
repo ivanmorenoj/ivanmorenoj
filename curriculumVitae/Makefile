@@ -4,6 +4,7 @@
 
 PDF_TEX = pdflatex -interaction=nonstopmode
 PDF_VIEWER = okular
+DATE=$(shell date +%D)
 
 .DEFAULT_GOAL := all
 
@@ -42,6 +43,7 @@ view-es: cv_es.pdf
 	@echo "Opening cv_es.pd fwith ${PDF_VIEWER}..."
 	@exec $(PDF_VIEWER) cv_es.pdf &> /dev/null &
 
-#compress: cv_en.pdf cv_es.pdf
-#	@echo "Compress pdf file -> ${TARGET}-compressed.pdf"
-#	@gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=$(TARGET)-compressed.pdf $(TARGET).pdf
+patch-date: cv_en.tex cv_es.tex
+	@echo "Add timestamp..."
+	sed -i "s|last-update-month-day-year|${DATE}|g" cv_en.tex
+	sed -i "s|last-update-month-day-year|${DATE}|g" cv_es.tex

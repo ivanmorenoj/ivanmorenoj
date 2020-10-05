@@ -15,7 +15,7 @@ jobs:
       - name: Install TexLive packages
         run: sudo apt-get install -y make texlive-fonts-extra texlive-latex-extra texlive-lang-spanish 
       - name: Build
-        run: cd curriculumVitae && make && cd ../
+        run: cd curriculumVitae && make patch-date && make all && cd ../
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -27,7 +27,7 @@ jobs:
           draft: false
           prerelease: false
       - name: Upload Curriculum Vitae English Version
-        id: upload-pdf-file
+        id: upload-pdf-file-english
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
           asset_name: Curriculum_Vitae_Ivan_Moreno_EN.pdf
           asset_content_type: application/pdf
       - name: Upload Curriculum Vitae Spanish Version
-        id: upload-pdf-file-compress
+        id: upload-pdf-file-spanish
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
