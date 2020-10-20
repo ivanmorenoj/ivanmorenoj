@@ -3,7 +3,7 @@
 <h3 align="center">Master's student in telecommunications engineering</h3>
 <h3 align="center">DevOps in progress</h3>
 
-<h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3iguQjV">English</a> or <a href="https://bit.ly/3nayBeK">Spanish</a>]</h3>
+<h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3khuSKu">English</a> or <a href="https://bit.ly/2IPQY97">Spanish</a>]</h3>
 
 ![Latest-release](https://img.shields.io/github/v/release/ivanmorenoj/ivanmorenoj?style=plastic)
 ![Latest-commit](https://img.shields.io/github/last-commit/ivanmorenoj/ivanmorenoj?style=plastic)
