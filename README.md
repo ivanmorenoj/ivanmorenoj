@@ -28,6 +28,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [How to connect raspberry pi with HC-05 bluetooth module + arduino programm](https://medium.com/@ivanmorenoj/how-to-connect-raspberry-pi-with-hc-05-bluetooth-module-arduino-programm-64a3a8b407a6?source=rss-659e69c36833------2)
+- [How to setup WiFi hotspot in raspberry pi and connect with ESP8266](https://medium.com/@ivanmorenoj/how-to-setup-wifi-hotspot-in-raspberry-pi-and-connect-with-esp8266-bfd595306455?source=rss-659e69c36833------2)
+- [How to bypass a firewall using a VPS on AWS](https://medium.com/@ivanmorenoj/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
+- [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://medium.com/@ivanmorenoj/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-2d219094c9c0?source=rss-659e69c36833------2)
+- [How to install and configure you own vpn server in GCP with Wireguard](https://medium.com/@ivanmorenoj/how-to-install-and-configure-you-own-vpn-server-in-gcp-with-wireguard-9492268db0bf?source=rss-659e69c36833------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
