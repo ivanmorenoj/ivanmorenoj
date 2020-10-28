@@ -18,7 +18,7 @@
 
 - 👨‍💻 All of my projects are available at [GitHub Profile](https://github.com/ivanmorenoj?tab=repositories)
 
-- 📝 I regulary write articles on [Medium](https://medium.com/@ivan1697)
+- 📝 I regulary write articles on [Medium](https://ivanmorenoj.medium.com)
 
 - 💬 Ask me about **DevOps, sysadmin and embedded development**
 
@@ -28,20 +28,15 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [How to connect raspberry pi with HC-05 bluetooth module + arduino programm](https://medium.com/@ivan1697/how-to-connect-raspberry-pi-with-hc-05-bluetooth-module-arduino-programm-64a3a8b407a6?source=rss-659e69c36833------2)
-- [How to setup WiFi hotspot in raspberry pi and connect with ESP8266](https://medium.com/@ivan1697/how-to-setup-wifi-hotspot-in-raspberry-pi-and-connect-with-esp8266-bfd595306455?source=rss-659e69c36833------2)
-- [How to bypass a firewall using a VPS on AWS](https://medium.com/@ivan1697/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
-- [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://medium.com/@ivan1697/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-2d219094c9c0?source=rss-659e69c36833------2)
-- [How to install and configure you own vpn server in GCP with Wireguard](https://medium.com/@ivan1697/how-to-install-and-configure-you-own-vpn-server-in-gcp-with-wireguard-9492268db0bf?source=rss-659e69c36833------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
 <h3 align="left">Connect with me:</h3>
-<a href="https://dev.to/ivanmj16" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="ivanmj16" height="30" width="40" /></a>
-<a href="https://twitter.com/ivan_morenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="ivan28823" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ivan28823" height="30" width="40" /></a>
-<a href="https://instagram.com/ivan.mj16" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ivan.mj16" height="30" width="40" /></a>
-<a href="https://medium.com/@ivan1697" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@ivan1697" height="30" width="40" /></a>
+<a href="https://dev.to/ivanmoreno" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="ivanmoreno" height="30" width="40" /></a>
+<a href="https://twitter.com/ivan_morenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="ivan_morenoj" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ivanmorenoj" height="30" width="40" /></a>
+<a href="https://instagram.com/_ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="_ivanmorenoj" height="30" width="40" /></a>
+<a href="https://ivanmorenoj.medium.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@ivanmorenoj" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/IvanMorenoivan28823" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="ivanmorenoivan28823" height="30" width="40" /></a>
 </p>
 
