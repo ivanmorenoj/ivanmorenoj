@@ -4,7 +4,7 @@
 
 PDF_TEX = pdflatex -interaction=nonstopmode
 PDF_VIEWER = okular
-DATE=$(shell date +%D)
+DATE=$(shell date +%F)
 
 .DEFAULT_GOAL := all
 
@@ -45,5 +45,5 @@ view-es: cv_es.pdf
 
 patch-date: cv_en.tex cv_es.tex
 	@echo "Add timestamp..."
-	sed -i "s|last-update-month-day-year|${DATE}|g" cv_en.tex
-	sed -i "s|last-update-month-day-year|${DATE}|g" cv_es.tex
+	sed -i "s|last-update-year-month-day|${DATE}|g" cv_en.tex
+	sed -i "s|last-update-year-month-day|${DATE}|g" cv_es.tex
