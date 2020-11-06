@@ -38,7 +38,7 @@
 <p align="left">
 <h3 align="left">Connect with me:</h3>
 <a href="https://dev.to/ivanmoreno" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="ivanmoreno" height="30" width="40" /></a>
-<a href="https://twitter.com/ivan_morenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="ivan_morenoj" height="30" width="40" /></a>
+<a href="https://twitter.com/ivanmorenoj_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="ivanmorenoj_" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ivanmorenoj" height="30" width="40" /></a>
 <a href="https://instagram.com/ivanmorenoj_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ivanmorenoj_" height="30" width="40" /></a>
 <a href="https://ivanmorenoj.medium.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@ivanmorenoj" height="30" width="40" /></a>
