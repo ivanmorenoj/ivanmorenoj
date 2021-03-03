@@ -28,11 +28,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Deploy pihole and wireguard on kubernetes using a recursive dns](https://medium.com/@ivanmorenoj/deploy-pihole-and-wireguard-on-kubernetes-using-a-recursive-dns-c13347b95fa7?source=rss-659e69c36833------2)
 - [How to connect to kubernetes internal network using WireGuard](https://medium.com/@ivanmorenoj/how-to-connect-to-kubernetes-internal-network-using-wireguard-46938cd49b40?source=rss-659e69c36833------2)
 - [How to connect raspberry pi with HC-05 bluetooth module + arduino programm](https://medium.com/@ivanmorenoj/how-to-connect-raspberry-pi-with-hc-05-bluetooth-module-arduino-programm-64a3a8b407a6?source=rss-659e69c36833------2)
 - [How to setup WiFi hotspot in raspberry pi and connect with ESP8266](https://medium.com/@ivanmorenoj/how-to-setup-wifi-hotspot-in-raspberry-pi-and-connect-with-esp8266-bfd595306455?source=rss-659e69c36833------2)
 - [How to bypass a firewall using a VPS on AWS](https://medium.com/@ivanmorenoj/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
-- [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://medium.com/@ivanmorenoj/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-2d219094c9c0?source=rss-659e69c36833------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
