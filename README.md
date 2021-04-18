@@ -28,11 +28,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Understand how linux containers works with practical examples](https://ivanmorenoj.medium.com/understand-how-linux-containers-works-with-practical-examples-bd1dfaaa7656?source=rss-659e69c36833------2)
 - [Deploy pihole and wireguard on kubernetes using a recursive dns](https://ivanmorenoj.medium.com/deploy-pihole-and-wireguard-on-kubernetes-using-a-recursive-dns-c13347b95fa7?source=rss-659e69c36833------2)
 - [How to connect to kubernetes internal network using WireGuard](https://ivanmorenoj.medium.com/how-to-connect-to-kubernetes-internal-network-using-wireguard-46938cd49b40?source=rss-659e69c36833------2)
 - [How to connect raspberry pi with HC-05 bluetooth module + arduino programm](https://ivanmorenoj.medium.com/how-to-connect-raspberry-pi-with-hc-05-bluetooth-module-arduino-programm-64a3a8b407a6?source=rss-659e69c36833------2)
 - [How to setup WiFi hotspot in raspberry pi and connect with ESP8266](https://ivanmorenoj.medium.com/how-to-setup-wifi-hotspot-in-raspberry-pi-and-connect-with-esp8266-bfd595306455?source=rss-659e69c36833------2)
-- [How to bypass a firewall using a VPS on AWS](https://ivanmorenoj.medium.com/how-to-bypass-a-firewall-using-a-vps-on-aws-4be946ef6dcc?source=rss-659e69c36833------2)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
