@@ -18,7 +18,7 @@
 
 - 👨‍💻 All of my projects are available at [GitHub Profile](https://github.com/ivanmorenoj?tab=repositories)
 
-- 📝 I regulary write articles on [Medium](https://ivanmorenoj.medium.com)
+- 📝 I regulary write articles on [dev.to](https://dev.to/ivanmoreno)
 
 - 💬 Ask me about **DevOps, sysadmin and embedded development**
 
@@ -28,6 +28,14 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Understand how linux containers works with practical examples](https://dev.to/ivanmoreno/understand-how-linux-containers-works-with-practical-examples-2ng2)
+- [How to deploy pihole and wireguard on kubernetes using a recursive dns](https://dev.to/ivanmoreno/how-to-deploy-pihole-and-wireguard-on-kubernetes-using-a-recursive-dns-4l9)
+- [How to connect to kubernetes internal network using WireGuard](https://dev.to/ivanmoreno/how-to-connect-with-kubernetes-internal-network-using-wireguard-48bh)
+- [How to bypass a firewall using a VPS on AWS](https://dev.to/ivanmoreno/how-to-bypass-firewall-at-work-or-school-1-2-4oh2)
+- [How to install and configure you own VPN server in GCP with Wireguard](https://dev.to/ivanmoreno/how-to-install-and-configure-you-own-vpn-server-in-gcp-with-wireguard-2af0)
+- [How to encrypt an existing archlinux LVM installation [LVM on LUKS]](https://dev.to/ivanmoreno/how-to-encrypt-an-existing-archlinux-lvm-installation-lvm-on-luks-1800)
+- [How to setup WiFi hotspot in raspberry pi and connect with ESP8266](https://dev.to/ivanmoreno/how-to-setup-wifi-hotspot-in-raspberry-pi-and-connect-with-esp8266-cg9)
+- [How to connect raspberry pi with HC-05 bluetooth module + arduino programm](https://dev.to/ivanmoreno/how-to-connect-raspberry-pi-with-hc-05-bluetooth-module-arduino-programm-3h7a)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="left">
