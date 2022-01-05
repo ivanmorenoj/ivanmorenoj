@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ivan Moreno</h1>
-<h3 align="center">Communication and electronics Engineer</h3>
-<h3 align="center">Master's student in telecommunications engineering</h3>
-<h3 align="center">DevOps in progress</h3>
+<h3 align="center">DevOps Enginner</h3>
 
 <h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3khuSKu">English</a> or <a href="https://bit.ly/2IPQY97">Spanish</a>]</h3>
 
