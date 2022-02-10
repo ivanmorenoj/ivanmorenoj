@@ -4,7 +4,7 @@
 
 PDF_TEX = pdflatex -interaction=nonstopmode
 PDF_VIEWER = okular
-DATE=$(shell date +%F)
+DATE=$(shell TZ=America/Mexico_City date +%F)
 
 .DEFAULT_GOAL := all
 
@@ -12,7 +12,8 @@ DATE=$(shell date +%F)
 .PHONY: clean 
 clean:
 	@echo "Removing auxiliar files"
-	@find ./ -maxdepth 1 ! -name "cv_en.tex" ! -name "cv_es.tex" -name "cv_e*" -type f -exec rm -v {} \;
+	@find ./ -maxdepth 1 ! -name "cv_en.tex" ! -name "cv_es.tex" \
+		-name "cv_e*" -type f -printf "Removing %P\n" -delete
 
 # generate final document
 all: cv_en.pdf cv_es.pdf
