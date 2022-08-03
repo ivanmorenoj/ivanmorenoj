@@ -8,8 +8,6 @@
 ![Views](https://komarev.com/ghpvc/?username=ivanmorenoj&color=brightgreen&style=plastic)
 ![CV-downloads](https://img.shields.io/github/downloads/ivanmorenoj/ivanmorenoj/total?style=plastic)
 
-- 🔭 I’m currently working on [Low-Cost Air Quality Monitoring Station](https://github.com/ivanmorenoj/emca)
-
 - 🌱 I’m currently learning **Jenkis, Ansible, Terraform, AWS and GCP**
 
 - 👯 I’m collaborate on [Arduino LoRaWAN library](https://github.com/BeelanMX/Beelan-LoRaWAN)
@@ -18,7 +16,7 @@
 
 - 📝 I regulary write articles on [dev.to](https://dev.to/ivanmoreno)
 
-- 💬 Ask me about **DevOps, sysadmin and embedded development**
+- 💬 Ask me about **DevOps, Cloud Computing, SysAdmin and embedded development**
 
 - 📫 How to reach me **info@ivanmoreno.dev**
 
