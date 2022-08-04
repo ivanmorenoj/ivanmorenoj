@@ -16,11 +16,9 @@
 
 - 📝 I regulary write articles on [dev.to](https://dev.to/ivanmoreno)
 
-- 💬 Ask me about **DevOps, Cloud Computing, SysAdmin and embedded development**
+- 💬 Ask me about **DevOps, Cloud Computing, SysAdmin and IoT**
 
 - 📫 How to reach me **info@ivanmoreno.dev**
-
-- ⚡ Fact about me **I like motorcycles**
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
