@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Ivan Moreno</h1>
-<h3 align="center">DevOps Enginner</h3>
+<h1 align="center">Hi 👋, I'm Iván Moreno</h1>
+<h3 align="center">M.Sc.Eng || SRE/DevOps Enginner</h3>
 
 <h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3khuSKu">English</a> or <a href="https://bit.ly/2IPQY97">Spanish</a>]</h3>
 
@@ -39,7 +39,7 @@
 <a href="https://linkedin.com/in/ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ivanmorenoj" height="30" width="40" /></a>
 <a href="https://instagram.com/ivanmorenoj_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ivanmorenoj_" height="30" width="40" /></a>
 <a href="https://ivanmorenoj.medium.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@ivanmorenoj" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/IvanMorenoivan28823" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="ivanmorenoivan28823" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@ivanmorenoj" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="@ivanmorenoj" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
