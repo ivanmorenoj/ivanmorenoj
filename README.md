@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Iván Moreno</h1>
-<h3 align="center">M.Sc.Eng || SRE/DevOps Enginner</h3>
+<h3 align="center">M.Sc.Eng || SRE/DevSecOps Enginner</h3>
 
 <h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3khuSKu">English</a> or <a href="https://bit.ly/2IPQY97">Spanish</a>]</h3>
 
@@ -8,15 +8,11 @@
 ![Views](https://komarev.com/ghpvc/?username=ivanmorenoj&color=brightgreen&style=plastic)
 ![CV-downloads](https://img.shields.io/github/downloads/ivanmorenoj/ivanmorenoj/total?style=plastic)
 
-- 🌱 I’m currently learning **Jenkis, Ansible, Terraform, AWS and GCP**
-
-- 👯 I’m collaborate on [Arduino LoRaWAN library](https://github.com/BeelanMX/Beelan-LoRaWAN)
-
 - 👨‍💻 All of my projects are available at [GitHub Profile](https://github.com/ivanmorenoj?tab=repositories)
 
 - 📝 I regulary write articles on [dev.to](https://dev.to/ivanmoreno)
 
-- 💬 Ask me about **DevOps, Cloud Computing, SysAdmin and IoT**
+- 💬 Ask me about **DevSecOps, Cloud Computing, SysAdmin and IoT**
 
 - 📫 How to reach me **info@ivanmoreno.dev**
 
