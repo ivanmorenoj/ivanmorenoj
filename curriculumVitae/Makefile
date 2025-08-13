@@ -12,39 +12,28 @@ DATE=$(shell TZ=America/Mexico_City date +%F)
 .PHONY: clean 
 clean:
 	@echo "Removing auxiliar files"
-	@find ./ -maxdepth 1 ! -name "cv_en.tex" ! -name "cv_es.tex" \
+	@find ./ -maxdepth 1 ! -name "cv_en.tex" \
 		-name "cv_e*" -type f -printf "Removing %P\n" -delete
 
 # generate final document
-all: cv_en.pdf cv_es.pdf
+all: cv_en.pdf
 
 en: cv_en.pdf
 	@echo "Compiling english version"
-
-es: cv_es.pdf
-	@echo "Compiling spanish version"
 
 # generate pdfs
 cv_en.pdf: cv_en.tex
 	$(PDF_TEX) cv_en.tex
 
-cv_es.pdf: cv_es.tex
-	$(PDF_TEX) cv_es.tex
-
 # open the document
-view: cv_en.pdf cv_es.pdf
+view: cv_en.pdf
 	@echo "Opening with ${PDF_VIEWER}..."
-	@exec $(PDF_VIEWER) cv_es.pdf cv_en.pdf &> /dev/null &
+	@exec $(PDF_VIEWER) cv_en.pdf &> /dev/null &
 
 view-en: cv_en.pdf
 	@echo "Opening cv_en.pdf with ${PDF_VIEWER}..."
 	@exec $(PDF_VIEWER) cv_en.pdf &> /dev/null &
 
-view-es: cv_es.pdf
-	@echo "Opening cv_es.pd fwith ${PDF_VIEWER}..."
-	@exec $(PDF_VIEWER) cv_es.pdf &> /dev/null &
-
-patch-date: cv_en.tex cv_es.tex
+patch-date: cv_en.tex
 	@echo "Add timestamp..."
 	sed -i "s|last-update-year-month-day|${DATE}|g" cv_en.tex
-	sed -i "s|last-update-year-month-day|${DATE}|g" cv_es.tex
