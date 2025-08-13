@@ -1,148 +1,137 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
-% Version 1.1 (8/1/17)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
-% Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+% ====== Packages & Setup ======
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{xcolor}
 
-\documentclass[letterpaper]{res/style} % a4paper for A4
+% Colors & links
+\definecolor{linkblue}{HTML}{0A66C2}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=black,
+  pdfauthor={Ivan Moreno},
+  pdftitle={Ivan Moreno - DevSecOps / SRE Resume}
+}
 
-%----------------------------------------------------------------------------------------
-%	 PERSONAL INFORMATION
-%----------------------------------------------------------------------------------------
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{\thesection}{0.5em}{}
+\titlespacing*{\section}{0pt}{10pt}{6pt}
 
-% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+% Compact lists
+\setlist[itemize]{left=0pt..1.2em, itemsep=3pt, topsep=3pt}
 
-\profilepic{res/profile_photo.jpg} % Profile picture
+% Small helpers
+\newcommand{\sep}{\,\textbar\,}
+\newcommand{\role}[2]{\textbf{#1} \hfill {\small #2}}% role + dates
+\newcommand{\org}[2]{{#1} \hfill {\small #2}}% org + location
+\newcommand{\skillcat}[2]{\textbf{#1:} #2\\}
 
-\cvname{Ivan Moreno} % Your name
-\cvjobtitle{SRE/DevSecOps Engineer} % Job title/career
-\cvdate{27 years old} % Date of birth
-\cvaddress{Mexico City} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{\href{https://bit.ly/3uPwAsF}{+52 5560712339}} % Phone number
-\cvsite{ivanmoreno.dev/cv} % Personal website
-\cvmail{info@ivanmoreno.dev} % Email address
-
-%----------------------------------------------------------------------------------------
-
+% ====== Document ======
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	 ABOUT ME
-%----------------------------------------------------------------------------------------
+% ====== Header ======
+{\LARGE \textbf{Ivan Moreno}}\\[2pt]
+\small Mexico City Metropolitan Area, Mexico \sep Open to Remote/Relocation\\
+\small \href{mailto:info@ivanmoreno.dev}{info@ivanmoreno.dev} \sep 
+\href{https://ivanmoreno.dev/cv}{ivanmoreno.dev/cv} \sep 
+\href{https://github.com/ivanmorenoj}{github.com/ivanmorenoj} \sep 
+\href{https://www.linkedin.com/in/ivanmoreno-dev}{linkedin.com/in/ivanmoreno-dev}
 
-\aboutme{MSc in Telecommunications Engineering with extensive experience in IoT devices, telecommunication networks, knowledge of SysAdmin, SRE, DevSecOps, Cybersecurity and Cloud Computing.} % To have no About Me section, just remove all the text and leave \aboutme{}
+\vspace{6pt}
+\hrule
+\vspace{6pt}
 
-%----------------------------------------------------------------------------------------
-%	 LANGUAGES
-%----------------------------------------------------------------------------------------
+% set the last update date
+\vspace{-18pt} \null \hfill {\tiny \textit{Updated on \textbf{last-update-year-month-day}}}
 
-\languages{Spanish (mother tongue)\\ English (80\%)}
+% ====== Professional Summary ======
+\section*{Professional Summary}
+SRE/DevSecOps Engineer (5+ years) with an M.Sc. in Telecommunications Engineering. Specializes in secure CI/CD, cloud-native security (SAST, DAST, SCA, secret scanning), container security, and Kubernetes on AWS. Proven impact building automated security pipelines and cost-efficient cloud architectures (e.g., 60\% AWS cost reduction without performance loss). Technical anchor and team mentor with experience leading cross-functional delivery in automotive and IoT domains. Seeking technical leadership roles (Tech Lead / Eng. Manager) in Cloud Security / DevSecOps.
 
-%----------------------------------------------------------------------------------------
-%	 SKILLS
-%----------------------------------------------------------------------------------------
+% ====== Core Skills ======
+\section*{Core Skills}
+\skillcat{Cloud \& Platforms}{AWS (EKS, EC2, S3, IAM, VPC), Kubernetes, Linux}
+\skillcat{Security}{DevSecOps, SAST, DAST, SCA, secret scanning, container hardening, supply chain security, policy-as-code}
+\skillcat{CI/CD \& IaC}{GitHub Actions, GitLab CI, Jenkins, Tekton, Azure DevOps, GCP Cloud Build, Terraform, Kubernetes, Helm}
+\skillcat{Programming}{Python, Bash, C (embedded), SQL (SQLite)}
+\skillcat{Observability}{SonarQube, logging/metrics basics}
+\skillcat{Soft Skills}{Technical leadership, team enablement, conflict resolution, mentorship}
 
-% Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{IoT/5},{Python/4},{Bash/4},{{Git/GitHub/GitLab}/4},{Networking/4.5},{Kubernetes/4},{Amazon Web Services/4},{DevSecOps/5},{Linux OS/4.5}}
+% ====== Experience ======
+\section*{Experience}
+\role{Cybersecurity DevSecOps Engineer — Technical Anchor}{Mar 2024 -- Present}
+\org{Ford Motor Company}{Mexico City, Mexico}
+\begin{itemize}
+  \item Led continuous security integrations across CI/CD (SAST, DAST, SCA, container security, secret scanning) to prevent vulnerable or malicious containers from reaching production; established guardrails and SLAs for remediation.
+  \item Designed and implemented automated container analysis to block unsafe images, improving release security posture and developer trust.
+  \item Drove adoption of security quality gates via SonarQube and pipeline policies, enabling per-commit code quality tracking and compliance reporting.
+  \item Mentored development squads on secure-by-default patterns, Git workflows, and incident preparation; acted as technical anchor for DevSecOps enablement.
+\end{itemize}
 
-%------------------------------------------------
+\role{SRE / DevSecOps Engineer}{May 2022 -- Mar 2024}
+\org{Softtek}{Mexico City, Mexico}
+\begin{itemize}
+  \item Owned AWS infrastructure lifecycle (design, provisioning, updates, monitoring) with high availability and cost governance; sustained continuous operations.
+  \item Achieved a 60\% cost reduction in AWS without service performance degradation by rightsizing, autoscaling, and storage/network optimizations.
+  \item Automated CI/CD for microservices on EKS, standardizing deployment strategies and rollout safety (blue/green, canary, health checks).
+\end{itemize}
 
-% Skill text section, each skill must have a value between 0 an 6
-% \skillstext{{spanish/6},{english/5}}
+\role{DevOps Engineer (Freelance)}{Jul 2021 -- May 2022}
+\org{Itirub}{Remote / Brazil}
+\begin{itemize}
+  \item Designed and implemented an IoT network on AWS using a microservices architecture (EKS), delivering observability, resilience, and secure connectivity.
+  \item Built Kubernetes-centric workflows (Helm, GitOps concepts) to simplify multi-service deployments and updates.
+\end{itemize}
+
+\role{IoT Solutions Architect (M.Sc. Project)}{2020 -- 2021}
+\org{SEPI ESIME - IPN}{Mexico City, Mexico}
+\begin{itemize}
+  \item Architected a smart-campus solution using IoT devices and AWS (serverless and microservices) with Kubernetes for orchestration.
+  \item Published related research and open-source contributions; collaborated with academic/industry stakeholders.
+\end{itemize}
+
+% ====== Selected Projects (Open Source) ======
+\section*{Selected Projects}
+\begin{itemize}
+  \item \textbf{DNS Ad Blocker with k3s \\ (Pi-hole + WireGuard)} — Kubernetes-based DNS ad blocker for home/edge networks. \href{https://github.com/ivanmorenoj/k3s-pihole-wireguard}{GitHub}
+  \item \textbf{IoT LoRaWAN Network (ChirpStack + ThingsBoard)} — Microservices architecture for low-cost sensing and telemetry on Kubernetes. \href{https://github.com/ivanmorenoj/chirpstack-thingsboard}{GitHub}
+  \item \textbf{Embedded C / Arduino LoRaWAN Contributions} — Contributions to Arduino LoRaWAN library (Beelan-LoRaWAN). \href{https://github.com/BeelanMX/Beelan-LoRaWAN}{GitHub}
+\end{itemize}
+
+% ====== Education ======
+\section*{Education}
+\textbf{M.Sc., Telecommunications Engineering} \hfill 2020 -- 2022\\
+SEPI ESIME - Instituto Politécnico Nacional (IPN), Mexico City\\[4pt]
+\textbf{B.Sc., Communications and Electronics Engineering} \hfill 2015 -- 2019\\
+ESIME - Instituto Politécnico Nacional (IPN), Mexico City
+
+% ====== Certifications ======
+\section*{Certifications}
+\begin{itemize}
+  \item Certified DevSecOps Professional (Practical DevSecOps), 2024 \hfill \href{https://www.credly.com/badges/b6ffc094-a1c5-4e28-b08e-192769fa2206/public_url}{Credly}
+  \item Architecting on AWS (IT Institute), 2021 \hfill \href{https://www.credly.com/badges/cafb146b-ed0d-4de2-bd07-8628481f3347/public_url}{Credly}
+\end{itemize}
+
+% ====== Publications ======
+\section*{Publications}
+Air Quality Monitoring in a Smart Campus. \emph{IEEE International Smart Cities Conference (ISC2)}, 2020.\\
+DOI: \href{https://doi.org/10.1109/ISC251055.2020.9239009}{10.1109/ISC251055.2020.9239009}
+
+% ====== Languages ======
+\section*{Languages}
+Spanish (Native) \sep English (Professional Working Proficiency)
+
+% ====== Interests ======
+\section*{Interests}
+DIY electronics, IoT, motorcycling, open-source security tooling
 
 
-\makeprofile % Print the sidebar
-
-%----------------------------------------------------------------------------------------
-%	 TIMESTAP
-%----------------------------------------------------------------------------------------
-
-\null \hfill Last update at \textit{\textbf{last-update-year-month-day}}
-
-%----------------------------------------------------------------------------------------
-%	 INTERESTS
-%----------------------------------------------------------------------------------------
-
-\section{Interests}
-
-Tech hobbyist, I like to make DIY electronic projects. In my leisure time I ride in motorcycle.
-
-%----------------------------------------------------------------------------------------
-%	 EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2020-2022}{M.Sc.}{SEPI ESIME - IPN, Mexico City}{Master of Science in Telecommunications Engineering}
-	\twentyitem{2015-2019}{B.Sc.}{ESIME - IPN, Mexico City}{Communications and electronics Engineer}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section{Experience}
-
-\begin{twenty} % Environment for a list with descriptions
-  \twentyitem{Since 3/24}{DevSecOps Engineer}{Ford Motor Company, Mexico City}{Continuous security integrations into {CI/CD} pipelines, SAST, DAST, SCA}
-  \twentyitem{5/22-3/24}{SRE/DevSecOps Engineer}{Softtek, Mexico City}{I'm responsible of creating, maintaining, updating and monitoring the infrastructure of an application on the AWS cloud ensuring the continuous operation}
-  \twentyitem{7/21-5/22}{DevOps Engineer}{Itirub (Freelance), Brazil}{I worked designing and implementing an IoT network using microservices architecture implemented on the AWS cloud (EKS)}
-	\twentyitem{2020-2021}{IoT solutions architect}{SEPI ESIME - IPN, Mexico City}{I worked creating interconnectivity solutions with IoT devices in the AWS cloud using serverless and microservices architectures with Kubernetes as part of my master's degree project}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 PROJECTS
-%----------------------------------------------------------------------------------------
-
-\section{Projects}
-
-\begin{twenty} % Environment for a list with descriptions
-  \twentyitem{2021}{\href{https://github.com/ivanmorenoj/k3s-pihole-wireguard}{DNS Ad blocker with K3S}}{}{AD blocker at DNS level using Kubernetes (k3S)}
-  \twentyitem{2020}{\href{https://github.com/ivanmorenoj/chirpstack-thingsboard}{An IoT LoRaWAN Network}}{}{Implementation of an IoT LoRaWAN Network using a microservices architecture with Kubernetes}
-  \twentyitem{2019}{\href{https://github.com/ivanmorenoj/emca}{Air Quality Monitoring Station}}{}{Implementation of an air quality monitoring system with low-cost sensors using a LoRaWAN network}
-    \twentyitem{2019}{\href{https://github.com/BeelanMX/Beelan-LoRaWAN}{Arduino LoRaWAN library}}{}{Contributed to the Arduino LoRaWAN library}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-
-\begin{twenty} % Environment for a list with descriptions
-  \twentyitem{2020}{\href{https://doi.org/10.1109/ISC251055.2020.9239009}{Air Quality Monitoring in a Smart Campus}}{IEEE}{IEEE International Smart Cities Conference (ISC2)}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-%----------------------------------------------------------------------------------------
-%	 COURSES
-%----------------------------------------------------------------------------------------
-
-\section{Training}
-
-\begin{twenty} % Environment for a list with descriptions
-  \twentyitem{2024}{\href{https://www.credly.com/badges/b6ffc094-a1c5-4e28-b08e-192769fa2206/public_url}{Certified DevSecOps Professional (CDP)}}{Practical DevSecOps}{}
-  \twentyitem{2021}{\href{https://www.credly.com/badges/cafb146b-ed0d-4de2-bd07-8628481f3347/public_url}{Architecting on AWS}}{IT Institute}{}
-  %\twentyitem{2020}{\href{https://ude.my/UC-46ac09bd-7e50-4521-ab01-9e193083d462}{Red Hat Certified Systems Administrator}}{Udemy}{}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
-
-\end{document} 
+\end{document}
