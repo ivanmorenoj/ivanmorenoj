@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Iván Moreno</h1>
-<h3 align="center">M.Sc.Eng || SRE/DevSecOps Enginner</h3>
-<h4 align="center">Certified DevSecOps Professional</h4>
+<h3 align="center">M.Sc.Eng || SRE/DevSecOps Enginner || CyberSecurity</h3>
 
-<h4 align="center">Download my Curriculum Vitae [<a href="https://bit.ly/3khuSKu">English</a> or <a href="https://bit.ly/2IPQY97">Spanish</a>]</h3>
+<h4 align="center"><a href="https://github.com/ivanmorenoj/ivanmorenoj/releases/latest/download/Resume_Ivan_Moreno.pdf">Download my resume here</a></h3>
 
 ![Latest-release](https://img.shields.io/github/v/release/ivanmorenoj/ivanmorenoj?style=plastic)
 ![Latest-commit](https://img.shields.io/github/last-commit/ivanmorenoj/ivanmorenoj?style=plastic)
@@ -13,7 +12,7 @@
 
 - 📝 I regulary write articles on [dev.to](https://dev.to/ivanmoreno)
 
-- 💬 Ask me about **DevSecOps, Cloud Computing, SysAdmin and IoT**
+- 💬 Ask me about **DevSecOps, CyberSecurity, Cloud Computing, SysAdmin and IoT**
 
 - 📫 How to reach me **info@ivanmoreno.dev**
 
