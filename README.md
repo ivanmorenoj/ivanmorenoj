@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Iván Moreno</h1>
-<h3 align="center">M.Sc.Eng || SRE/DevSecOps Enginner || CyberSecurity</h3>
+<h3 align="center">M.Sc.Eng || Sr. CyberSecurity DevSecOps Engineer || SRE</h3>
 
 <h4 align="center"><a href="https://github.com/ivanmorenoj/ivanmorenoj/releases/latest/download/Resume_Ivan_Moreno.pdf">Download my resume here</a></h3>
 
